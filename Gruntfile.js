@@ -18,9 +18,6 @@ module.exports = function (grunt) {
         clean: {
             input: [
                 '<%= project.input %>/*'
-            ],
-            output: [
-                '<%= project.output %>/*'
             ]
         },
 
@@ -61,8 +58,8 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('default', [ 'imagemin' ]);
+    grunt.registerTask('default', [ 'imagemin', 'watch' ]);
 
-    grunt.registerTask('reset', [ 'clean' ]);
+    grunt.registerTask('reset', [ 'clean:input' ]);
 
 };
