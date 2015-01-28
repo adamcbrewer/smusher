@@ -1,0 +1,18 @@
+{
+  "name": "smusher",
+  "url": "https://github.com/adamcbrewer/smusher",
+  "author": "Adam Brewer",
+  "copyright": "2015",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/adamcbrewer/smusher.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-imagemin": "^0.4.1",
+    "grunt-contrib-watch": "^0.4.4",
+    "matchdep": "^0.1.2",
+    "time-grunt": "^1.0.0"
+  }
+}
